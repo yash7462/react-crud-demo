@@ -17,7 +17,6 @@ const AddContact = () => {
         setContact({
             ...contact, [e.target.name]: e.target.value
         });
-        //console.log(contact);
     };
 
     let saveContact = async (e) => {
