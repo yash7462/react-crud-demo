@@ -27,7 +27,7 @@ const AddContact = () => {
         if(result.data.status){
             navigate('/');
         }else{
-
+            console.log("contact not created")
         }
         
     }
